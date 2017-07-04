@@ -44,7 +44,6 @@ This is a list of over 50 information security terms that are currently availabl
 * malvertising
 * misdirection
 * non repudiation
-* o-day
 * open design
 * permission snowball
 * polymorphism
