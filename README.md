@@ -4,7 +4,7 @@ This is a list of security terms currently available for the Security Flashcards
 ## To run the skill
 1. You need an Amazon Echo device
 2. Install the Security Flashcards Alexa skill
-3. Say `launch Security Flashcards` to run
+3. Say `open Security Flashcards` to run
 ## List available of security terms 
 * least privilege
 * defense in depth
