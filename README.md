@@ -26,3 +26,9 @@ This is a list of security terms currently available for the Security Flashcards
 * integrity
 * availability
 * social engineering
+* anomalyous behavior
+* attack surface
+* containerization
+* decommision
+* deprecated
+* detective control
