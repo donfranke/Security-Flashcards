@@ -51,3 +51,11 @@ This is a list of security terms currently available for the Security Flashcards
 * indicator of compromise
 * red team
 * blue team
+* authentication
+* authorization
+* non repudiation
+* o-day
+* vulnerability
+* exploit
+* symmetric encryption
+* asymmetric encryption
