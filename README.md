@@ -42,7 +42,6 @@ This is a list of security terms currently available for the Security Flashcards
 * virtual patching
 * virus
 * worm
-* zero day
 * ransom ware
 * cyber intelligence
 * command and control
