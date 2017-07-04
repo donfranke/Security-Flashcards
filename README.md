@@ -32,3 +32,23 @@ This is a list of security terms currently available for the Security Flashcards
 * decommision
 * deprecated
 * detective control
+* exfiltrate
+* jump server
+* malvertising
+* polymorphism
+* preventative control
+* internet proxy
+* trojan horse
+* virtual patching
+* virus
+* worm
+* zero day
+* ransom ware
+* cyber intelligence
+* command and control
+* misdirection
+* incident
+* event
+* indicator of compromise
+* red team
+* blue team
