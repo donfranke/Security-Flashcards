@@ -1,11 +1,13 @@
 # Security-Flashcards
 ## Companion to the book Cyber Security Basics by Don Franke, available at Amazon.com.
-This is a list of security terms currently available for the Security Flashcards Alexa skill. I plan to continue to add to this list. As a study aid, consider trying to define a term, then ask Alexa for the definition to see if they match.
+This is a list of security terms currently available for the Security Flashcards Alexa skill. To use as a study aid, try defining the term first, then ask Alexa for the definition to see if you were right.
+
 ## To run the skill
 1. You need an Amazon Echo device
 2. Install the Security Flashcards Alexa skill
 3. Say `open Security Flashcards` to run
-## List available of security terms 
+
+## List of available security terms 
 * least privilege
 * defense in depth
 * separation of duties
