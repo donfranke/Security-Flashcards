@@ -1,63 +1,62 @@
 # Security-Flashcards
 ## Companion to the book Cyber Security Basics by Don Franke, available at Amazon.com.
-This is a list of security terms currently available for the Security Flashcards Alexa skill. To use as a study aid, try defining the term first, then ask Alexa for the definition to see if you were right.
+This is a list of over 50 information security terms that are currently available for the Security Flashcards Alexa skill. To use as a study aid, try defining the term first, then ask Alexa for the definition to see if you got it right.
 
-## To run the skill
-1. You need an Amazon Echo device
-2. Install the Security Flashcards Alexa skill
-3. Say `open Security Flashcards` to run
+## To use the skill
+1. Install the Security Flashcards Alexa skill on your Echo device
+2. Say `open Security Flashcards` to run
 
 ## List of available security terms 
-* least privilege
-* defense in depth
-* separation of duties
 * actor
+* anomalyous behavior
 * asset
+* asymmetric encryption
+* attack surface
+* authentication
+* authorization
+* availability
+* blue team
 * chain of custody
+* command and control
 * complete mediation
 * confidentiality
+* containerization
 * counter intelligence
+* cyber intelligence
+* decommision
 * defenders dilema
+* defense in depth
+* deprecated
+* detective control
 * economy of mechanism
+* event
+* exfiltrate
+* exploit
 * fail safe
 * fail secure
 * hardening
+* incident
+* indicator of compromise
+* integrity
+* internet proxy
+* jump server
+* least privilege
+* malvertising
+* misdirection
+* non repudiation
+* o-day
 * open design
 * permission snowball
-* residual risk
-* integrity
-* availability
-* social engineering
-* anomalyous behavior
-* attack surface
-* containerization
-* decommision
-* deprecated
-* detective control
-* exfiltrate
-* jump server
-* malvertising
 * polymorphism
 * preventative control
-* internet proxy
+* ransom ware
+* red team
+* residual risk
+* separation of duties
+* social engineering
+* symmetric encryption
 * trojan horse
 * virtual patching
 * virus
-* worm
-* ransom ware
-* cyber intelligence
-* command and control
-* misdirection
-* incident
-* event
-* indicator of compromise
-* red team
-* blue team
-* authentication
-* authorization
-* non repudiation
-* o-day
 * vulnerability
-* exploit
-* symmetric encryption
-* asymmetric encryption
+* worm
