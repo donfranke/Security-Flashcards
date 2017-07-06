@@ -1,6 +1,6 @@
 # Security-Flashcards
 ## Companion to the book Cyber Security Basics by Don Franke, available at Amazon.com.
-This is a list of over 50 information security terms that are currently available for the Security Flashcards Alexa skill. To use as a study aid, try defining the term first, then ask Alexa for the definition to see if you got it right.
+This is a list of over 60 information security terms that are currently available for the Security Flashcards Alexa skill. To use as a study aid, try defining the term first, then ask Alexa for the definition to see if you got it right.
 
 ## To use the skill
 1. Install the Security Flashcards Alexa skill on your Echo device
@@ -8,20 +8,24 @@ This is a list of over 50 information security terms that are currently availabl
 
 ## List of available security terms 
 * actor
+* adversary
 * anomalyous behavior
 * asset
 * asymmetric encryption
 * attack surface
+* attacker
 * authentication
 * authorization
 * availability
+* bastion host
+* black box test
+* black hat
 * blue team
 * chain of custody
 * command and control
 * complete mediation
 * confidentiality
 * containerization
-* counter intelligence
 * cyber intelligence
 * decommision
 * defenders dilema
@@ -34,6 +38,7 @@ This is a list of over 50 information security terms that are currently availabl
 * exploit
 * fail safe
 * fail secure
+* fuzz testing
 * hardening
 * incident
 * indicator of compromise
@@ -42,10 +47,14 @@ This is a list of over 50 information security terms that are currently availabl
 * jump server
 * least privilege
 * malvertising
+* malware
+* miscreant
 * misdirection
 * non repudiation
 * open design
-* permission snowball
+* pen test
+* permissions snowball
+* phishing
 * polymorphism
 * preventative control
 * ransom ware
@@ -53,9 +62,12 @@ This is a list of over 50 information security terms that are currently availabl
 * residual risk
 * separation of duties
 * social engineering
+* spear phishing
 * symmetric encryption
 * trojan horse
 * virtual patching
 * virus
 * vulnerability
+* white box test
+* white hat
 * worm
