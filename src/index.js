@@ -74,12 +74,8 @@ function onSessionEnded(sessionEndedRequest, session) {
 
 /* ================= provide greeting ================= */
 function getWelcomeResponse(callback) {
-    var speechOutput = `Welcome to Security Flashcards! 
-    This skill can help you learn more about information security and even prepare you for a security certification exam. 
-    It is based on the book Cyber Security Basics, available at Amazon.
-    Just say the word define, followed by a security term to hear it's definition.
-    Now, which security term would you like to hear the definition for?`
-    var reprompt = "Which security term are you interested in?"
+    var speechOutput = `Welcome !`
+    var reprompt = "Which term are you interested in?"
     var header = "Security Flashcards"
     var shouldEndSession = false
 
@@ -99,16 +95,16 @@ function handleDefineResponse(intent, session, callback) {
     var header = ""
 
     if (!securityterms[securityterm]) {
-        speechOutput = "That security term is not in my database. Do you want to try a different one?"
-        repromptText = "Try asking about another security term"
+        speechOutput = "That  term is not in my database."
+        repromptText = "Try asking about another term"
         header = "Unknown"
     } else {
         var definition = securityterms[securityterm].definition
         var preface = securityterms[securityterm].preface
         if(preface!="") preface+=" "
         speechOutput = preface + securityterm + " is " + definition
-        speechOutput += " Do you want to hear about more security terms?"  
-        repromptText = "Do you still want to hear about more security terms?"
+        speechOutput += " Do you want to hear about more terms?"  
+        repromptText = "Do you still want to hear about more terms?"
         header = capitalizeFirst(securityterm)
     }
 
@@ -145,7 +141,7 @@ function handleGetHelpRequest(intent, session, callback) {
         session.attributes = {};
     }
 
-    var speechOutput = "Please say define, followed by a security term." 
+    var speechOutput = "Please say define, followed by a term." 
     var repromptText = speechOutput
     var shouldEndSession = false
     callback(session.attributes, buildSpeechletResponseWithoutCard(speechOutput, repromptText, shouldEndSession))
@@ -154,7 +150,7 @@ function handleGetHelpRequest(intent, session, callback) {
 /* ================= handle finish response ================= */
 function handleFinishSessionRequest(intent, session, callback) {
 
-    var items = ["Stay vigilant","Patch early and often","Trust but verify"];
+    var items = ["Response A","Response B","Response C"];
     var item = items[Math.floor(Math.random()*items.length)];
     callback(session.attributes,
         buildSpeechletResponseWithoutCard("Ok. Thank you for using Security Flashcards! " + item + ".", "", true));
