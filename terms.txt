@@ -1,0 +1,53 @@
+actor
+anomalyous behavior
+asset
+asymmetric encryption
+attack surface
+authentication
+authorization
+availability
+blue team
+chain of custody
+command and control
+complete mediation
+confidentiality
+containerization
+counter intelligence
+cyber intelligence
+decommision
+defenders dilema
+defense in depth
+deprecated
+detective control
+economy of mechanism
+event
+exfiltrate
+exploit
+fail safe
+fail secure
+hardening
+incident
+indicator of compromise
+integrity
+internet proxy
+jump server
+least privilege
+malvertising
+misdirection
+non repudiation
+o-day
+open design
+permission snowball
+polymorphism
+preventative control
+ransom ware
+red team
+residual risk
+separation of duties
+social engineering
+symmetric encryption
+trojan horse
+virtual patching
+virus
+vulnerability
+worm
