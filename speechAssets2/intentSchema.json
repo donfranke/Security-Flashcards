@@ -1,0 +1,24 @@
+{
+	"intents" : [ {
+		"intent": "DefineIntent", 
+		"slots": [
+			{
+				"name": "SecurityTerms",
+				"type": "LIST_OF_SECURITY_TERMS"
+			}
+		]
+	}, {
+		"intent" : "AMAZON.YesIntent"
+	}, {
+		"intent" : "AMAZON.NoIntent"
+	}, {
+		"intent" : "AMAZON.HelpIntent"
+	}, {
+		"intent" : "AMAZON.StopIntent"
+	}, {
+		"intent" : "AMAZON.CancelIntent"
+	}
+
+
+	]
+}
