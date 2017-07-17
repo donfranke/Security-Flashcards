@@ -1,0 +1,8 @@
+DefineIntent {SecurityTerm}
+DefineIntent tell me about {SecurityTerm}
+DefineIntent talk about {SecurityTerm}
+DefineIntent tell me some facts about {SecurityTerm}
+AMAZON.HelpIntent tell me those security terms again
+AMAZON.HelpIntent tell me the security terms 
+AMAZON.HelpIntent what are the security terms again
+AMAZON.HelpIntent what are the security terms
